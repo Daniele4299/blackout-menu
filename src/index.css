@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+  padding:0;
+  margin:0;
+  box-sizing: border-box;
+  font-family: outfit;
+  scroll-behavior: smooth;
+}
+body{
+  min-height: 100vh;
+}
+a{
+  text-decoration: none;
+  color:inherit;
+}
+.app{
+  width: 80%;
+  margin: auto;
+}
+@keyframes fadeIn {
+  0%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
+  
+}
+
+:root {
+  --nero-profondo: #121212;
+  --grigio-antracite: #1E1E1E;
+  --oro-elegante: #C9A856;
+  --verde-tropicale: #2E8B57;
+  --bianco-crema: #F5F5DC;
+  --grigio-perla: #B0B0B0;
+}
+
+/* Stili di base */
+body {
+  background-color: var(--grigio-antracite);
+  color: var(--bianco-crema);
+  font-family: Arial, sans-serif;
+}
+
+/* Container generico */
+.container {
+  background-color: var(--grigio-antracite);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+/* Titoli */
+h1, h2, h3 {
+  color: var(--oro-elegante);
+}
+
+/* Testi secondari */
+.text-secondary {
+  color: var(--grigio-perla);
+}
+
+/* Pulsanti */
+.button {
+  background-color: var(--oro-elegante);
+  color: var(--nero-profondo);
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background 0.3s ease;
+}
+
+.button:hover {
+  background-color: var(--verde-tropicale);
+}
+
+/* Elementi attivi */
+.active {
+  color: var(--verde-tropicale);
+  font-weight: bold;
+}
+
+/* Card */
+.card {
+  background-color: var(--grigio-antracite);
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Navbar */
+.navbar {
+  background-color: var(--grigio-antracite);
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar a {
+  color: var(--bianco-crema);
+  text-decoration: none;
+  padding: 10px;
+}
+
+.navbar a:hover {
+  color: var(--oro-elegante);
+}
+
+/* Input */
+input {
+  background-color: var(--grigio-antracite);
+  border: 1px solid var(--oro-elegante);
+  color: var(--bianco-crema);
+  padding: 8px;
+  border-radius: 5px;
+}
+
+input::placeholder {
+  color: var(--grigio-perla);
+}
