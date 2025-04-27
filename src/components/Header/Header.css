@@ -15,6 +15,8 @@
     background-size: contain;
     background-position: center;
     position: relative;
+    opacity: 0; /* Inizia invisibile */
+    animation: fadeInUpBackground 1s ease-out forwards; /* Animazione dolce di dissolvenza e movimento */
 }
 
 /* Contenuto dell'header */
@@ -28,7 +30,6 @@
     max-width: 50%;
     bottom: 10%;
     left: 6vw;
-    animation: fadeIn 3s;
 }
 
 /* Titolo */
@@ -81,5 +82,21 @@
     }
     .header-contents button {
         padding: 2vw 4vw;
+    }
+}
+
+/* Animazione dissolvenza e movimento dall'alto del background */
+@keyframes fadeInUpBackground {
+    0% {
+        opacity: 0;
+        transform: translateY(-20px); /* Inizia un po' sopra */
+    }
+    50% {
+        opacity: 0.5;
+        transform: translateY(5px); /* Si avvicina al suo posto */
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0); /* Posizione finale */
     }
 }
