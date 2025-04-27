@@ -20,7 +20,7 @@ const FoodModal = ({ food, onClose }) => {
           <h2 className="food-modal-name">{name}</h2>
           <p className="food-modal-description">{description}</p>
           {extraDescription && (
-            <p className="food-modal-extra-description">{extraDescription}</p>
+            <p className="food-modal-extra-description">Info: {extraDescription}</p>
           )}
           <p className="food-modal-price">{price}€</p>
 

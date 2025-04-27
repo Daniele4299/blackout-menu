@@ -1,10 +1,5 @@
 import logo from './logo.png'
 import header_img from './header_img.png'
-import menu_1 from './categories/menu_1.png'
-import menu_2 from './categories/menu_2.png'
-import menu_3 from './categories/menu_3.png'
-import menu_4 from './categories/menu_4.png'
-import menu_5 from './categories/menu_5.png'
 
 import antipasti_roastbeef from './products/antipasti_roastbeef.png'
 import antipasti_caponata from './products/antipasti_caponata.png'
@@ -38,23 +33,23 @@ export const assets = {
 export const menu_list = [
     {
         menu_name: "Antipasti",
-        menu_image: menu_1
+        menu_image: antipasti_taglieregourmet
     },
     {
         menu_name: "Primi",
-        menu_image: menu_2
+        menu_image: primi_raviolopestogamberoni
     },
     {
         menu_name: "Secondi",
-        menu_image: menu_3
+        menu_image: antipasti_trisfume
     },
     {
         menu_name: "Dessert",
-        menu_image: menu_4
+        menu_image: antipasti_vitellotonnato
     },
     {
         menu_name: "Bevande",
-        menu_image: menu_5
+        menu_image: antipasti_soutecozzevongole
     },
 ]
 
@@ -114,7 +109,7 @@ export const food_list = [
         name: "Tagliere Gourmet",
         image: antipasti_taglieregourmet,
         price: 22,
-        description: "Tagliere per due persone. Caponata, formaggi vari, salumi, mozzarella di bufala ...",
+        description: "Tagliere per due persone. ",
         category: "Antipasti",
         cookingTime: "10-15",
         extraDescription: "Caponata, formaggi vari, salumi, mozzarella di bufala, miele e pistacchio, cous-cous, involtino di crudo, crocchette, panelle, tuma, accompagnato con ciotoline di marmellata. Può contenere tracce di glutine e lattosio."

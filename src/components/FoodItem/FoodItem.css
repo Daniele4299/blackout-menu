@@ -7,60 +7,77 @@
     --grigio-perla: #B0B0B0;
 }
 
-/* Stile generale per gli elementi food */
+/* Stile generale per la card */
 .food-item {
     width: 100%;
     max-width: 300px;
-    height: 300px; /* Altezza fissa e compatta */
+    height: 360px; /* Altezza totale fissa */
     margin: auto;
     border-radius: 15px;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
-    transition: 0.3s;
     background-color: var(--grigio-antracite);
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    overflow: hidden;
+    transition: 0.3s;
+    animation: fadeInUp 0.6s ease forwards;
+}
+
+/* Hover solo su dispositivi con mouse */
+@media (hover: hover) and (pointer: fine) {
+    .food-item:hover {
+        transform: scale(1.02);
+        box-shadow: 0px 6px 12px rgba(201, 168, 86, 0.3);
+        background-color: #262626;
+        cursor: pointer;
+    }
+}
+
+/* Effetto "attivo" su touch */
+.food-item.active {
+    transform: scale(1.02);
+    box-shadow: 0px 6px 12px rgba(201, 168, 86, 0.3);
+    background-color: #262626;
 }
 
 /* Contenitore immagine */
 .food-item-img-container {
     width: 100%;
-    height: 80%;
+    height: 55%;
+    position: relative;
     overflow: hidden;
 }
 
-/* Immagine dell'elemento */
+/* Immagine dentro la card */
 .food-item-image {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    border-radius: 15px 15px 0px 0px;
+    border-radius: 15px 15px 0 0;
 }
 
-/* Informazioni generali (nome, descrizione, prezzo) */
+/* Parte informativa */
 .food-item-info {
-    padding: 10px;
-    flex-grow: 1;
+    padding: 10px 12px;
     display: flex;
     flex-direction: column;
-    justify-content: flex-start; /* Impedisce di sprecare spazio */
+    height: 45%;
+    justify-content: space-evenly;
 }
 
-/* Nome del cibo */
+/* Nome piatto */
 .food-item-name {
-    font-size: 22px;
+    font-size: 20px;
     font-weight: 600;
     color: var(--bianco-crema);
-    margin: 0; /* Rimuove margine e aumenta la compattezza */
-    padding-bottom: 3px; /* Distanza ridotta dal successivo componente */
+    margin: 0;
 }
 
-/* Descrizione del cibo */
+/* Descrizione */
 .food-item-desc {
-    color: var(--grigio-perla);
     font-size: 14px;
-    margin: 0; /* Rimuove margine per ridurre lo spazio */
-    padding-bottom: 5px; /* Piccola distanza tra descrizione e prezzo */
+    color: var(--grigio-perla);
+    margin: 0;
 }
 
 /* Prezzo */
@@ -68,5 +85,35 @@
     font-size: 20px;
     font-weight: 600;
     color: var(--oro-elegante);
-    margin: 0; /* Rimuove margine per compattezza */
+    margin: 0;
+}
+
+/* Cooking Time */
+.cooking-time-container {
+    display: flex;
+    align-items: center;
+    margin-top: 6px;
+    gap: 5px;
+}
+
+.cooking-time-icon {
+    color: var(--verde-tropicale);
+    font-size: 16px;
+}
+
+.cooking-time-text {
+    color: var(--oro-elegante);
+    font-size: 14px;
+}
+
+/* Animazione di ingresso */
+@keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
