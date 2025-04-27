@@ -76,6 +76,12 @@ h1, h2, h3 {
   background-color: var(--verde-tropicale);
 }
 
+/* Elementi attivi */
+.active {
+  color: var(--verde-tropicale);
+  font-weight: bold;
+}
+
 /* Card */
 .card {
   background-color: var(--grigio-antracite);
