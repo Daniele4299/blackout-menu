@@ -235,6 +235,16 @@ export const food_list = [
         description: "Una torta rustica con mele fresche, perfetta per ogni occasione.",
         category: "Bevande",
         cookingTime: "40-50"
+    },
+    {
+        _id: "21",
+        name: "testtest",
+        image: food_4,
+        price: 24.99,
+        description: "Una frittata italiana con zucchine e uova.",
+        category: "Antipasti",
+        cookingTime: "10-15",
+        extraDescription: "Contiene glutine e lattosio."
     }
 ];
 

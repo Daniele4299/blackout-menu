@@ -1,0 +1,114 @@
+:root {
+    --nero-profondo: #121212;
+    --grigio-antracite: #1E1E1E;
+    --oro-elegante: #C9A856;
+    --verde-tropicale: #2E8B57;
+    --bianco-crema: #F5F5DC;
+    --grigio-perla: #B0B0B0;
+  }
+  
+  /* Overlay scuro */
+  .food-modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Contenitore della modale */
+  .food-modal {
+    background-color: var(--grigio-antracite);
+    border-radius: 15px;
+    width: 90%;
+    max-width: 500px;
+    padding: 20px;
+    position: relative;
+    animation: fadeIn 0.5s;
+    color: var(--bianco-crema);
+  }
+  
+  /* Pulsante di chiusura */
+  .close-button {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    background: transparent;
+    border: none;
+    font-size: 22px;
+    color: var(--grigio-perla);
+    cursor: pointer;
+    transition: color 0.3s;
+  }
+  
+  .close-button:hover {
+    color: var(--oro-elegante);
+  }
+  
+  /* Immagine del cibo */
+  .food-modal-image {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  
+  /* Info del cibo */
+  .food-modal-info {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+  
+  /* Nome */
+  .food-modal-name {
+    font-size: 24px;
+    font-weight: 600;
+    color: var(--bianco-crema);
+  }
+  
+  /* Descrizione principale */
+  .food-modal-description {
+    font-size: 14px;
+    color: var(--grigio-perla);
+  }
+  
+  /* Descrizione extra */
+  .food-modal-extra-description {
+    font-size: 12px;
+    color: var(--verde-tropicale);
+    font-style: italic;
+  }
+  
+  /* Prezzo */
+  .food-modal-price {
+    font-size: 20px;
+    font-weight: 500;
+    color: var(--oro-elegante);
+  }
+  
+  /* Tempo di cottura */
+  .food-modal-cooking-time {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 14px;
+    color: var(--grigio-perla);
+  }
+  
+  /* Animazione fadeIn */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: scale(0.9);
+    }
+    to {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+  
