@@ -10,104 +10,63 @@
 /* Stile generale per gli elementi food */
 .food-item {
     width: 100%;
+    max-width: 300px;
+    height: 300px; /* Altezza fissa e compatta */
     margin: auto;
     border-radius: 15px;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
     transition: 0.3s;
-    animation: fadeIn 1s;
     background-color: var(--grigio-antracite);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* Contenitore immagine */
+.food-item-img-container {
+    width: 100%;
+    height: 80%;
+    overflow: hidden;
 }
 
 /* Immagine dell'elemento */
 .food-item-image {
     width: 100%;
+    height: 100%;
+    object-fit: cover;
     border-radius: 15px 15px 0px 0px;
 }
 
-/* Informazioni generali */
+/* Informazioni generali (nome, descrizione, prezzo) */
 .food-item-info {
-    padding: 20px;
-}
-
-/* Nome e rating */
-.food-item-name-rating {
+    padding: 10px;
+    flex-grow: 1;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 10px;
+    flex-direction: column;
+    justify-content: flex-start; /* Impedisce di sprecare spazio */
 }
 
-.food-item-name-rating p {
-    font-size: 20px;
-    font-weight: 500;
+/* Nome del cibo */
+.food-item-name {
+    font-size: 22px;
+    font-weight: 600;
     color: var(--bianco-crema);
-    flex-grow: 1; /* Fa sì che il nome occupi tutto lo spazio disponibile */
+    margin: 0; /* Rimuove margine e aumenta la compattezza */
+    padding-bottom: 3px; /* Distanza ridotta dal successivo componente */
 }
 
 /* Descrizione del cibo */
 .food-item-desc {
     color: var(--grigio-perla);
-    font-size: 12px;
+    font-size: 14px;
+    margin: 0; /* Rimuove margine per ridurre lo spazio */
+    padding-bottom: 5px; /* Piccola distanza tra descrizione e prezzo */
 }
 
 /* Prezzo */
 .food-item-price {
+    font-size: 20px;
+    font-weight: 600;
     color: var(--oro-elegante);
-    font-size: 22px;
-    font-weight: 500;
-    margin: 10px 0px;
-}
-
-/* Contenitore dell'immagine */
-.food-item-img-container {
-    position: relative;
-}
-
-/* Pulsante per aggiungere */
-.food-item-img-container .add {
-    width: 35px;
-    position: absolute;
-    bottom: 15px;
-    right: 15px;
-    cursor: pointer;
-    border-radius: 50%;
-    background-color: var(--verde-tropicale);
-    padding: 5px;
-    transition: 0.3s;
-}
-
-.food-item-img-container .add:hover {
-    background-color: var(--oro-elegante);
-}
-
-/* Contatore quantità */
-.food-item-counter {
-    position: absolute;
-    bottom: 15px;
-    display: flex;
-    right: 15px;
-    align-items: center;
-    gap: 10px;
-    padding: 6px;
-    border-radius: 50px;
-    background-color: var(--grigio-antracite);
-}
-
-.food-item-counter img {
-    width: 30px;
-}
-
-/* Contenitore del tempo di cottura */
-.cooking-time-container {
-    display: flex;
-    align-items: center;
-    gap: 5px;
-    color: var(--oro-elegante); /* Puoi usare il colore che preferisci */
-    font-size: 14px; /* Puoi personalizzare la dimensione del testo */
-}
-
-/* Icona del tempo di cottura */
-.cooking-time-icon {
-    font-size: 18px; /* Modifica la dimensione dell'icona */
-    color: var(--verde-tropicale); /* Colore dell'icona */
+    margin: 0; /* Rimuove margine per compattezza */
 }

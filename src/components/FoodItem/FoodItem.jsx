@@ -1,9 +1,9 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faClock } from '@fortawesome/free-solid-svg-icons'; // Importa l'icona dell'orologio
+// import { faClock } from '@fortawesome/free-solid-svg-icons'; // Icona del tempo di cottura (momentaneamente non usata)
 import './FoodItem.css';
 
-const FoodItem = ({ id, name, price, description, image, cookingTime }) => {
+const FoodItem = ({ id, name, price, description, image /*, cookingTime */ }) => {
     return (
         <div className='food-item'>
             <div className="food-item-img-container">
@@ -15,11 +15,14 @@ const FoodItem = ({ id, name, price, description, image, cookingTime }) => {
                 </div>
                 <p className="food-item-desc">{description}</p>
                 <p className="food-item-price">{price}€</p>
+                
+                {/* Se in futuro avrai il tempo di cottura disponibile, decommenta questa parte */}
+                {/*
                 <div className="cooking-time-container">
-                        {/* Usa l'icona importata */}
-                        <FontAwesomeIcon icon={faClock} className="cooking-time-icon" />
-                        <span>{cookingTime} min</span>
+                    <FontAwesomeIcon icon={faClock} className="cooking-time-icon" />
+                    <span>{cookingTime} min</span>
                 </div>
+                */}
             </div>
         </div>
     );

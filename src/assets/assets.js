@@ -6,26 +6,29 @@ import menu_3 from './categories/menu_3.png'
 import menu_4 from './categories/menu_4.png'
 import menu_5 from './categories/menu_5.png'
 
-import food_1 from './products/food_1.png'
-import food_2 from './products/food_2.png'
-import food_3 from './products/food_3.png'
-import food_4 from './products/food_4.png'
-import food_5 from './products/food_5.png'
-import food_6 from './products/food_6.png'
-import food_7 from './products/food_7.png'
-import food_8 from './products/food_8.png'
-import food_9 from './products/food_9.png'
-import food_10 from './products/food_10.png'
-import food_11 from './products/food_11.png'
-import food_12 from './products/food_12.png'
-import food_13 from './products/food_13.png'
-import food_14 from './products/food_14.png'
-import food_15 from './products/food_15.png'
-import food_16 from './products/food_16.png'
-import food_17 from './products/food_17.png'
-import food_18 from './products/food_18.png'
-import food_19 from './products/food_19.png'
-import food_20 from './products/food_20.png'
+import antipasti_roastbeef from './products/antipasti_roastbeef.png'
+import antipasti_caponata from './products/antipasti_caponata.png'
+import antipasti_crudo from './products/antipasti_crudo.png'
+import antipasti_vitellotonnato from './products/antipasti_vitellotonnato.png'
+import antipasti_cannolosalato from './products/antipasti_cannolosalato.png'
+import antipasti_taglieregourmet from './products/antipasti_taglieregourmet.png'
+import antipasti_insalatadimare from './products/antipasti_insalatadimare.png'
+import antipasti_trisfume from './products/antipasti_trisfume.png'
+import antipasti_cozzescoppiate from './products/antipasti_cozzescoppiate.png'
+import antipasti_soutecozzevongole from './products/antipasti_soutecozzevongole.png'
+import antipasti_polpoarrostopatate from './products/antipasti_polpoarrostopatate.png'
+import antipasti_frittomisto2 from './products/antipasti_frittomisto2.png'
+import antipasti_frittomisto4 from './products/antipasti_frittomisto4.png'
+import primi_raviolopistacchioguanciale from './products/primi_raviolopistacchioguanciale.png'
+import primi_pastacremaparmigiano from './products/primi_pastacremaparmigiano.png'
+import primi_tagliatellemelanzana from './products/primi_tagliatellemelanzana.png'
+import primi_pastabolognese from './products/primi_pastabolognese.png'
+import primi_pastapestocasa from './products/primi_pastapestocasa.png'
+import primi_pastafruttimare from './products/primi_pastafruttimare.png'
+import primi_spaghettivongole from './products/primi_spaghettivongole.png'
+import primi_pastatonnarina from './products/primi_pastatonnarina.png'
+import primi_pastacilieginogamberoni from './products/primi_pastacilieginogamberoni.png'
+import primi_raviolopestogamberoni from './products/primi_raviolopestogamberoni.png'
 
 export const assets = {
     logo,
@@ -58,193 +61,233 @@ export const menu_list = [
 export const food_list = [
     {
         _id: "1",
-        name: "Insalata Caprese",
-        image: food_1,
-        price: 12,
-        description: "Un'insalata fresca con pomodori, mozzarella, basilico e olio d'oliva.",
+        name: "Roast-beef",
+        image: antipasti_roastbeef,
+        price: 8,
+        description: "Cotto a bassa temperatura con rucola fresca e mirtilli di stagione.",
         category: "Antipasti",
-        cookingTime: "5-10"
+        cookingTime: "5-10",
+        extraDescription: "Contiene carne bovina. Possibili tracce di glutine."
     },
     {
         _id: "2",
-        name: "Bruschetta",
-        image: food_2,
-        price: 18,
-        description: "Pane grigliato con pomodori freschi, aglio e basilico.",
+        name: "Caponata siciliana",
+        image: antipasti_caponata,
+        price: 7,
+        description: "Con profumo di basilico fresco e crostini della casa",
         category: "Antipasti",
-        cookingTime: "5-10"
+        cookingTime: "5-10",
+        extraDescription: "Può contenere tracce di glutine."
     },
     {
         _id: "3",
-        name: "Panzanella",
-        image: food_3,
-        price: 16,
-        description: "Un'insalata toscana con pane, pomodori, cetrioli, cipolle e basilico.",
+        name: "Veli di crudo di Parma",
+        image: antipasti_crudo,
+        price: 7,
+        description: "Accompagnati da una fresca mozzarella di Bufala.",
         category: "Antipasti",
-        cookingTime: "5-10"
-    },
+        cookingTime: "5-10",
+        extraDescription: "Può contenere tracce di glutine e lattosio."
+    },    
     {
         _id: "4",
-        name: "Frittata di Zucchine",
-        image: food_4,
-        price: 24,
-        description: "Una frittata italiana con zucchine e uova.",
+        name: "Vitello Tonnato",
+        image: antipasti_vitellotonnato,
+        price: 7,
+        description: "Accompagnato da una pioggia di capperi.",
         category: "Antipasti",
-        cookingTime: "10-15"
+        cookingTime: "10-15",
+        extraDescription: "Può contenere tracce di glutine e lattosio."
     },
     {
         _id: "5",
-        name: "Lasagna alla Bolognese",
-        image: food_5,
-        price: 14,
-        description: "Lasagna classica con strati di pasta, ragù e besciamella.",
-        category: "Primi",
-        cookingTime: "45-60"
+        name: "Cannolo Salato",
+        image: antipasti_cannolosalato,
+        price: 8,
+        description: "Accompagnato da pomodori secchi, olive nere, tuma, basilico su crema di melanzana.",
+        category: "Antipasti",
+        cookingTime: "10-15",
+        extraDescription: "Può contenere tracce di glutine e lattosio."
     },
     {
         _id: "6",
-        name: "Pasta alla Carbonara",
-        image: food_6,
-        price: 12,
-        description: "Pasta con uova, guanciale, pecorino e pepe nero.",
-        category: "Primi",
-        cookingTime: "15-20"
+        name: "Tagliere Gourmet",
+        image: antipasti_taglieregourmet,
+        price: 22,
+        description: "Tagliere per due persone. Caponata, formaggi vari, salumi, mozzarella di bufala ...",
+        category: "Antipasti",
+        cookingTime: "10-15",
+        extraDescription: "Caponata, formaggi vari, salumi, mozzarella di bufala, miele e pistacchio, cous-cous, involtino di crudo, crocchette, panelle, tuma, accompagnato con ciotoline di marmellata. Può contenere tracce di glutine e lattosio."
     },
     {
         _id: "7",
-        name: "Risotto ai Funghi",
-        image: food_7,
-        price: 20,
-        description: "Un risotto cremoso con funghi freschi.",
-        category: "Primi",
-        cookingTime: "25-35"
+        name: "Insalata di Mare",
+        image: antipasti_insalatadimare,
+        price: 12,
+        description: "Insalata di Mare",
+        category: "Antipasti",
+        cookingTime: "10-15",
+        extraDescription: "Può contenere tracce di glutine."
     },
     {
         _id: "8",
-        name: "Pasta al Pesto",
-        image: food_8,
-        price: 15,
-        description: "Pasta con un sugo di basilico, pinoli, parmigiano e olio d'oliva.",
-        category: "Primi",
-        cookingTime: "15-20"
+        name: "Tris Fumè",
+        image: antipasti_trisfume,
+        price: 10,
+        description: "Tris di salmone affumicato, tonno affumicato e pesce spada affumicato, olio, limone, aromi.",
+        category: "Antipasti",
+        cookingTime: "10-15",
+        extraDescription: "Può contenere tracce di glutine."
     },
     {
         _id: "9",
-        name: "Tiramisù",
-        image: food_9,
-        price: 14,
-        description: "Un dolce italiano a base di mascarpone, caffè e cacao.",
-        category: "Dessert",
-        cookingTime: "5-10"
+        name: "Cozze Scoppiate",
+        image: antipasti_cozzescoppiate,
+        price: 10,
+        description: "Cozze Scoppiate",
+        category: "Antipasti",
+        cookingTime: "10-15",
+        extraDescription: "Può contenere tracce di glutine."
     },
     {
         _id: "10",
-        name: "Panna Cotta",
-        image: food_10,
-        price: 22,
-        description: "Un dolce al cucchiaio cremoso a base di panna e vaniglia.",
-        category: "Dessert",
-        cookingTime: "240-360"
+        name: "Soutè di Cozze e Vongole",
+        image: antipasti_soutecozzevongole,
+        price: 10,
+        description: "Soutè di Cozze e Vongole",
+        category: "Antipasti",
+        cookingTime: "10-15",
+        extraDescription: "Può contenere tracce di glutine."
     },
     {
         _id: "11",
-        name: "Gelato alla Vaniglia",
-        image: food_11,
+        name: "Polpo arrosto su Crema di Patate",
+        image: antipasti_polpoarrostopatate,
         price: 10,
-        description: "Gelato classico alla vaniglia, fresco e cremoso.",
-        category: "Dessert",
-        cookingTime: "5-10"
+        description: "Polpo arrosto su Crema di Patate",
+        category: "Antipasti",
+        cookingTime: "10-15",
+        extraDescription: "Può contenere tracce di glutine."
     },
     {
         _id: "12",
-        name: "Semifreddo al Cioccolato",
-        image: food_12,
-        price: 12,
-        description: "Un dolce semifreddo a base di cioccolato e panna.",
-        category: "Dessert",
-        cookingTime: "120-180"
+        name: "Fritto misto (2 pers.)",
+        image: antipasti_frittomisto2,
+        price: 6,
+        description: "Fritto misto per due persone",
+        category: "Antipasti",
+        cookingTime: "10-15",
+        extraDescription: "Può contenere tracce di glutine."
     },
     {
         _id: "13",
-        name: "Panino con Pollo",
-        image: food_13,
-        price: 12,
-        description: "Un panino con pollo grigliato, insalata e salse.",
-        category: "Secondi",
-        cookingTime: "10-15"
+        name: "Fritto misto (4 pers.)",
+        image: antipasti_frittomisto4,
+        price: 10,
+        description: "Fritto misto per quattro persone",
+        category: "Antipasti",
+        cookingTime: "10-15",
+        extraDescription: "Può contenere tracce di glutine."
     },
     {
         _id: "14",
-        name: "Panino Vegano",
-        image: food_14,
-        price: 18,
-        description: "Un panino con verdure grigliate, hummus e avocado.",
-        category: "Secondi",
-        cookingTime: "10-15"
+        name: "Ravioli di Burrata al Pistacchio",
+        image: primi_raviolopistacchioguanciale,
+        price: 8,
+        description: "Ravioli di Burrata con pesto di Pistacchio e Guanciale.",
+        category: "Primi",
+        cookingTime: "10-15",
+        extraDescription: "Può contenere tracce di glutine e lattosio."
     },
     {
         _id: "15",
-        name: "Panino Grigliato",
-        image: food_15,
-        price: 16,
-        description: "Un panino farcito con prosciutto cotto, formaggio e verdure, grigliato alla perfezione.",
-        category: "Secondi",
-        cookingTime: "5-10"
+        name: "Pasta Fresca con Crema di Parmigiano",
+        image: primi_pastacremaparmigiano,
+        price: 8,
+        description: "Pasta fresca con crema di Parmigiano, Speck e Zafferano.",
+        category: "Primi",
+        cookingTime: "10-15",
+        extraDescription: "Può contenere tracce di glutine e lattosio."
     },
     {
         _id: "16",
-        name: "Panino con Salsiccia",
-        image: food_16,
-        price: 24,
-        description: "Panino con salsiccia, peperoni e cipolla caramellata.",
-        category: "Secondi",
-        cookingTime: "15-20"
+        name: "Tagliatelle con Crema di Melanzana",
+        image: primi_tagliatellemelanzana,
+        price: 8,
+        description: "Tagliatelle con Crema di Melanzana, Pancetta e Scaglie di Grana.",
+        category: "Primi",
+        cookingTime: "10-15",
+        extraDescription: "Può contenere tracce di glutine e lattosio."
     },
     {
         _id: "17",
-        name: "Torta al Cioccolato",
-        image: food_17,
-        price: 14,
-        description: "Una ricca torta al cioccolato, soffice e golosa.",
-        category: "Bevande",
-        cookingTime: "30-40"
+        name: "Pasta con Ragù alla Bolognese",
+        image: primi_pastabolognese,
+        price: 8,
+        description: "Pasta con Ragù alla Bolognese.",
+        category: "Primi",
+        cookingTime: "10-15",
+        extraDescription: "Può contenere tracce di glutine e lattosio."
     },
     {
         _id: "18",
-        name: "Torta Vegana",
-        image: food_18,
-        price: 12,
-        description: "Torta vegana a base di ingredienti naturali e senza uova.",
-        category: "Bevande",
-        cookingTime: "30-40"
+        name: "Pasta con Pesto della casa",
+        image: primi_pastapestocasa,
+        price: 7,
+        description: "Pasta con Pesto della casa.",
+        category: "Primi",
+        cookingTime: "10-15",
+        extraDescription: "Può contenere tracce di glutine e lattosio."
     },
     {
         _id: "19",
-        name: "Torta alla Nocciola",
-        image: food_19,
-        price: 20,
-        description: "Un dolce alle nocciole con una morbida crema.",
-        category: "Bevande",
-        cookingTime: "40-50"
+        name: "Pasta ai Frutti di Mare",
+        image: primi_pastafruttimare,
+        price: 10,
+        description: "Pasta ai Frutti di Mare.",
+        category: "Primi",
+        cookingTime: "10-15",
+        extraDescription: "Può contenere tracce di glutine e lattosio."
     },
     {
         _id: "20",
-        name: "Torta di Mele",
-        image: food_20,
-        price: 15,
-        description: "Una torta rustica con mele fresche, perfetta per ogni occasione.",
-        category: "Bevande",
-        cookingTime: "40-50"
+        name: "Spaghetti alle Vongole",
+        image: primi_spaghettivongole,
+        price: 12,
+        description: "Spaghetti alle Vongole.",
+        category: "Primi",
+        cookingTime: "10-15",
+        extraDescription: "Può contenere tracce di glutine e lattosio."
     },
     {
         _id: "21",
-        name: "testtest",
-        image: food_4,
-        price: 24.99,
-        description: "Una frittata italiana con zucchine e uova.",
-        category: "Antipasti",
+        name: "Pasta alla Tonnarina",
+        image: primi_pastatonnarina,
+        price: 12,
+        description: "Pomodorino, tonno fresco e mandorle.",
+        category: "Primi",
         cookingTime: "10-15",
-        extraDescription: "Contiene glutine e lattosio."
-    }
+        extraDescription: "Può contenere tracce di glutine e lattosio."
+    },
+    {
+        _id: "22",
+        name: "Pasta Ciliegino e Gamberone",
+        image: primi_pastacilieginogamberoni,
+        price: 12,
+        description: "Pasta Ciliegino e Gamberone.",
+        category: "Primi",
+        cookingTime: "10-15",
+        extraDescription: "Può contenere tracce di glutine e lattosio."
+    },
+    {
+        _id: "23",
+        name: "Raviolo al Pesto di Pistacchio e Gamberone",
+        image: primi_raviolopestogamberoni,
+        price: 14,
+        description: "Raviolo al Pesto di Pistacchio e Gamberone.",
+        category: "Primi",
+        cookingTime: "10-15",
+        extraDescription: "Può contenere tracce di glutine e lattosio."
+    },
 ];
 
