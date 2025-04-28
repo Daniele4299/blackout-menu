@@ -24,6 +24,21 @@ import primi_spaghettivongole from './products/primi_spaghettivongole.png'
 import primi_pastatonnarina from './products/primi_pastatonnarina.png'
 import primi_pastacilieginogamberoni from './products/primi_pastacilieginogamberoni.png'
 import primi_raviolopestogamberoni from './products/primi_raviolopestogamberoni.png'
+import secondi_filettobrace from './products/secondi_filettobrace.png'
+import secondi_scaloppinefunghi from './products/secondi_scaloppinefunghi.png'
+import secondi_filettovitelloscaglie from './products/secondi_filettovitelloscaglie.png'
+import secondi_bisteccapalermitana from './products/secondi_bisteccapalermitana.png'
+import secondi_fiorentina from './products/secondi_fiorentina.png'
+import secondi_grigliatamista from './products/secondi_grigliatamista.png'
+import secondi_fritturacalamari from './products/secondi_fritturacalamari.png'
+import secondi_tagliatavitello from './products/secondi_tagliatavitello.png'
+import secondi_spiedinogambero from './products/secondi_spiedinogambero.png'
+import secondi_involtinospada from './products/secondi_involtinospada.png'
+import secondi_tagliatatonno from './products/secondi_tagliatatonno.png'
+import secondi_pescespadagriglia from './products/secondi_pescespadagriglia.png'
+import secondi_grigliatamistapesce from './products/secondi_grigliatamistapesce.png'
+import contorni_patateforno from './products/contorni_patateforno.png'
+
 
 export const assets = {
     logo,
@@ -41,7 +56,11 @@ export const menu_list = [
     },
     {
         menu_name: "Secondi",
-        menu_image: antipasti_trisfume
+        menu_image: secondi_fiorentina
+    },
+    {
+        menu_name: "Contorni",
+        menu_image: contorni_patateforno
     },
     {
         menu_name: "Dessert",
@@ -283,6 +302,146 @@ export const food_list = [
         category: "Primi",
         cookingTime: "10-15",
         extraDescription: "Può contenere tracce di glutine e lattosio."
+    },
+    {
+        _id: "24",
+        name: "Filetto alla Brace",
+        image: secondi_filettobrace,
+        price: 8,
+        description: "Filetto alla Brace",
+        category: "Secondi",
+        cookingTime: "10-15",
+        extraDescription: "Può contenere tracce di glutine."
+    },
+    {
+        _id: "25",
+        name: "Scaloppine",
+        image: secondi_scaloppinefunghi,
+        price: 8,
+        description: "Ai Funghi, o Limone o Marsala",
+        category: "Secondi",
+        cookingTime: "10-15",
+        extraDescription: "Può contenere tracce di glutine."
+    },
+    {
+        _id: "26",
+        name: "Filetto di Vitello con Melanzane Tunisine",
+        image: secondi_filettovitelloscaglie,
+        price: 8,
+        description: "Filetto di Vitello con Pesto di Basilico, Melanzane Tunisine e Scaglie di grana.",
+        category: "Secondi",
+        cookingTime: "10-15",
+        extraDescription: "Può contenere tracce di glutine."
+    },
+    {
+        _id: "27",
+        name: "Bistecca alla Palermitana",
+        image: secondi_bisteccapalermitana,
+        price: 8,
+        description: "Bistecca alla Palermitana.",
+        category: "Secondi",
+        cookingTime: "10-15",
+        extraDescription: "Può contenere tracce di glutine."
+    },
+    {
+        _id: "28",
+        name: "Fiorentina",
+        image: secondi_fiorentina,
+        price: 4.50,
+        description: "Grigliata di Carne. Prezzo all'etto.",
+        category: "Secondi",
+        cookingTime: "10-15",
+        extraDescription: "Può contenere tracce di glutine."
+    },
+    {
+        _id: "29",
+        name: "Grigliata Mista",
+        image: secondi_grigliatamista,
+        price: 8,
+        description: "Grigliata mista.",
+        category: "Secondi",
+        cookingTime: "10-15",
+        extraDescription: "Può contenere tracce di glutine."
+    },
+    {
+        _id: "30",
+        name: "Tagliata di Vitello",
+        image: secondi_tagliatavitello,
+        price: 8,
+        description: "Con Rucola, Scaglie di Grana e Aceto balsamico.",
+        category: "Secondi",
+        cookingTime: "10-15",
+        extraDescription: "Può contenere tracce di glutine."
+    },
+    {
+        _id: "31",
+        name: "Frittura di Calamari",
+        image: secondi_fritturacalamari,
+        price: 8,
+        description: "Frittura di Calamari.",
+        category: "Secondi",
+        cookingTime: "10-15",
+        extraDescription: "Può contenere tracce di glutine."
+    },
+    {
+        _id: "32",
+        name: "Spiedini di Gambero",
+        image: secondi_spiedinogambero,
+        price: 8,
+        description: "Spiedini di Gambero.",
+        category: "Secondi",
+        cookingTime: "10-15",
+        extraDescription: "Può contenere tracce di glutine."
+    },
+    {
+        _id: "33",
+        name: "Involtini di Spada",
+        image: secondi_involtinospada,
+        price: 8,
+        description: "Involtini di Spada.",
+        category: "Secondi",
+        cookingTime: "10-15",
+        extraDescription: "Può contenere tracce di glutine."
+    },
+    {
+        _id: "34",
+        name: "Tagliata di Tonno al Sesamo",
+        image: secondi_tagliatatonno,
+        price: 8,
+        description: "Tagliata di Tonno al Sesamo.",
+        category: "Secondi",
+        cookingTime: "10-15",
+        extraDescription: "Può contenere tracce di glutine."
+    },
+    {
+        _id: "35",
+        name: "Pesce Spada alla Griglia",
+        image: secondi_pescespadagriglia,
+        price: 8,
+        description: "Pesce Spada alla Griglia.",
+        category: "Secondi",
+        cookingTime: "10-15",
+        extraDescription: "Può contenere tracce di glutine."
+    },
+    {
+        _id: "36",
+        name: "Grigliata Mista di Pesce",
+        image: secondi_grigliatamistapesce,
+        price: 8,
+        description: "Grigliata Mista di Pesce.",
+        category: "Secondi",
+        cookingTime: "10-15",
+        extraDescription: "Può contenere tracce di glutine."
+    },
+    {
+        _id: "37",
+        name: "Patate al Forno",
+        image: contorni_patateforno,
+        price: 4,
+        description: "Patate al Forno.",
+        category: "Contorni",
+        cookingTime: "10-15",
+        extraDescription: "Può contenere tracce di glutine."
     },
 ];
 
