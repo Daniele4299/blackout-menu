@@ -38,6 +38,19 @@ import secondi_tagliatatonno from './products/secondi_tagliatatonno.png'
 import secondi_pescespadagriglia from './products/secondi_pescespadagriglia.png'
 import secondi_grigliatamistapesce from './products/secondi_grigliatamistapesce.png'
 import contorni_patateforno from './products/contorni_patateforno.png'
+import contorni_insalata from './products/contorni_insalata.png'
+import contorni_purepatate from './products/contorni_purepatate.png'
+import dessert_cheesecake from './products/dessert_cheesecake.png'
+import dessert_tiramisu from './products/dessert_tiramisu.png'
+import bevande_cocacola from './products/bevande_cocacola.png'
+import bevande_sprite from './products/bevande_sprite.png'
+import bevande_fanta from './products/bevande_fanta.png'
+import hamburger_carne from './products/hamburger_carne.png'
+import hamburger_pesce from './products/hamburger_pesce.png'
+import vini_calicebianco from './products/vini_calicebianco.png'
+import vini_calicerosso from './products/vini_calicerosso.png'
+import vini_categoria from './products/vini_categoria.png'
+
 
 
 export const assets = {
@@ -59,16 +72,24 @@ export const menu_list = [
         menu_image: secondi_fiorentina
     },
     {
+        menu_name: "Hamburger",
+        menu_image: hamburger_carne
+    },
+    {
         menu_name: "Contorni",
         menu_image: contorni_patateforno
     },
     {
         menu_name: "Dessert",
-        menu_image: antipasti_vitellotonnato
+        menu_image: dessert_cheesecake
     },
     {
         menu_name: "Bevande",
-        menu_image: antipasti_soutecozzevongole
+        menu_image: bevande_cocacola
+    },
+    {
+        menu_name: "Vini",
+        menu_image: vini_categoria
     },
 ]
 
@@ -128,7 +149,7 @@ export const food_list = [
         name: "Tagliere Gourmet",
         image: antipasti_taglieregourmet,
         price: 22,
-        description: "Tagliere per due persone. ",
+        description: "Tagliere per due persone. Clicca per vedere gli ingredienti.",
         category: "Antipasti",
         cookingTime: "10-15",
         extraDescription: "Caponata, formaggi vari, salumi, mozzarella di bufala, miele e pistacchio, cous-cous, involtino di crudo, crocchette, panelle, tuma, accompagnato con ciotoline di marmellata. Può contenere tracce di glutine e lattosio."
@@ -442,6 +463,196 @@ export const food_list = [
         category: "Contorni",
         cookingTime: "10-15",
         extraDescription: "Può contenere tracce di glutine."
+    },
+    {
+        _id: "38",
+        name: "Insalata di Lattuga",
+        image: contorni_insalata,
+        price: 3.50,
+        description: "Insalata di Lattuga.",
+        category: "Contorni",
+        cookingTime: "10-15",
+        extraDescription: "Può contenere tracce di glutine."
+    },
+    {
+        _id: "39",
+        name: "Purè di Patate",
+        image: contorni_purepatate,
+        price: 4,
+        description: "Purè di Patate.",
+        category: "Contorni",
+        cookingTime: "10-15",
+        extraDescription: "Può contenere tracce di glutine."
+    },
+    {
+        _id: "40",
+        name: "Cheesecake",
+        image: dessert_cheesecake,
+        price: 4.50,
+        description: "Cheesecake.",
+        category: "Dessert",
+        cookingTime: "10-15",
+        extraDescription: "Può contenere tracce di glutine e lattosio."
+    },
+    {
+        _id: "41",
+        name: "Tiramisù",
+        image: dessert_tiramisu,
+        price: 4.50,
+        description: "Tiramisù.",
+        category: "Dessert",
+        cookingTime: "10-15",
+        extraDescription: "Può contenere tracce di glutine e lattosio."
+    },
+    {
+        _id: "42",
+        name: "Coca-Cola",
+        image: bevande_cocacola,
+        price: 2,
+        description: "25cl",
+        category: "Bevande",
+        cookingTime: "10-15",
+        extraDescription: ""
+    },
+    {
+        _id: "43",
+        name: "Sprite",
+        image: bevande_sprite,
+        price: 2,
+        description: "25cl",
+        category: "Bevande",
+        cookingTime: "10-15",
+        extraDescription: ""
+    },
+    {
+        _id: "44",
+        name: "Fanta",
+        image: bevande_fanta,
+        price: 2,
+        description: "25cl",
+        category: "Bevande",
+        cookingTime: "10-15",
+        extraDescription: ""
+    },
+    {
+        _id: "45",
+        name: "Vino bianco",
+        image: vini_calicebianco,
+        price: 0,
+        description: "Su richiesta",
+        category: "Vini",
+        cookingTime: "10-15",
+        extraDescription: ""
+    },
+    {
+        _id: "46",
+        name: "Vino rosso",
+        image: vini_calicerosso,
+        price: 0,
+        description: "Su richiesta",
+        category: "Vini",
+        cookingTime: "10-15",
+        extraDescription: ""
+    },
+    {
+        _id: "47",
+        name: "Blackout",
+        image: hamburger_carne,
+        price: 8,
+        description: "Clicca per vedere gli ingredienti.",
+        category: "Hamburger",
+        cookingTime: "10-15",
+        extraDescription: "Hamburger nero, angus, ciliegino a fette, bacon alla griglia, cheddar, salsa burger. Può contenere tracce di glutine."
+    },
+    {
+        _id: "48",
+        name: "Pepe verde",
+        image: hamburger_carne,
+        price: 8,
+        description: "Clicca per vedere gli ingredienti.",
+        category: "Hamburger",
+        cookingTime: "10-15",
+        extraDescription: "Hamburger di Scottona, cipolla caramellata, pepe verde, lattuga iceberg, salsa alle erbe. Può contenere tracce di glutine."
+    },
+    {
+        _id: "49",
+        name: "Agli Agrumi",
+        image: hamburger_carne,
+        price: 8,
+        description: "Clicca per vedere gli ingredienti.",
+        category: "Hamburger",
+        cookingTime: "10-15",
+        extraDescription: "Hamburger di pollo panato, gorgonzola, pomodoro picadilly, misticanza, olio, sale, pepe nero, maionese agli agrumi. Può contenere tracce di glutine."
+    },
+    {
+        _id: "50",
+        name: "Polpetta",
+        image: hamburger_carne,
+        price: 8,
+        description: "Clicca per vedere gli ingredienti.",
+        category: "Hamburger",
+        cookingTime: "10-15",
+        extraDescription: "Hamburger di polpetta ripiena al pistacchio e formaggio, mortadella, crema di pistacchio. Può contenere tracce di glutine."
+    },
+    {
+        _id: "51",
+        name: "Classico",
+        image: hamburger_carne,
+        price: 8,
+        description: "Clicca per vedere gli ingredienti.",
+        category: "Hamburger",
+        cookingTime: "10-15",
+        extraDescription: "Hamburger, lattuga, pomodoro, cheddar, cetriolo, salsa maionese, salsa barbecue. Può contenere tracce di glutine."
+    },
+    {
+        _id: "52",
+        name: "Double Burger",
+        image: hamburger_carne,
+        price: 8,
+        description: "Clicca per vedere gli ingredienti.",
+        category: "Hamburger",
+        cookingTime: "10-15",
+        extraDescription: "Doppio Hamburger, lattuga a strati, pomodoro a strati, cheddar a strati, cetriolo, salsa burger. Può contenere tracce di glutine."
+    },
+    {
+        _id: "53",
+        name: "Spicy",
+        image: hamburger_carne,
+        price: 8,
+        description: "Clicca per vedere gli ingredienti.",
+        category: "Hamburger",
+        cookingTime: "10-15",
+        extraDescription: "Hamburger di Manzo, cipolla croccante, paprika, pepe, cheddar, succo di lime, coriandolo, pangrattato, lattuga, salsa piccante. Può contenere tracce di glutine."
+    },
+    {
+        _id: "54",
+        name: "Il Manzo Strazzato",
+        image: hamburger_carne,
+        price: 8,
+        description: "Clicca per vedere gli ingredienti.",
+        category: "Hamburger",
+        cookingTime: "10-15",
+        extraDescription: "Straccetti di manzo cotto a bassa temperatura, cheddar, lattuga, pomodoro a fette, salsa barbecue. Può contenere tracce di glutine."
+    },
+    {
+        _id: "55",
+        name: "Il Pollo Strazzato",
+        image: hamburger_carne,
+        price: 8,
+        description: "Clicca per vedere gli ingredienti.",
+        category: "Hamburger",
+        cookingTime: "10-15",
+        extraDescription: "Straccetti di petto di pollo, gorgonzola, olio, sale, paprika dolce, senape, foglie di basilico fresco. Può contenere tracce di glutine."
+    },
+    {
+        _id: "56",
+        name: "Al Salmone",
+        image: hamburger_pesce,
+        price: 8,
+        description: "Clicca per vedere gli ingredienti.",
+        category: "Hamburger",
+        cookingTime: "10-15",
+        extraDescription: "Trancio di Salmone, iceberg, noci sgusciate, olio, aceto balsamico. Può contenere tracce di glutine."
     },
 ];
 
