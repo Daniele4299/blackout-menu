@@ -226,10 +226,10 @@ export const food_list = [
     },
     {
         _id: "14",
-        name: "Ravioli di Burrata al Pistacchio",
+        name: "Ravioli ripieni di Burrata con salsa al Pistacchio",
         image: primi_raviolopistacchioguanciale,
         price: 8,
-        description: "Ravioli di Burrata con pesto di Pistacchio e Guanciale.",
+        description: "Ravioli ripieni di Burrata con salsa al Pistacchio e Guanciale.",
         category: "Primi",
         cookingTime: "10-15",
         extraDescription: "Può contenere tracce di glutine e lattosio."
