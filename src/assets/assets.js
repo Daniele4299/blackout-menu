@@ -656,7 +656,7 @@ export const food_list = [
         name: "Cristo di Campobello | CDC",
         image: vini_cdc_bianco,
         price: 22,
-        description: "Bianco",
+        description: "Bianco - Bottiglia o Calice",
         category: "Vini",
         cookingTime: "10-15",
         extraDescription: "Calice 6€"
@@ -686,10 +686,10 @@ export const food_list = [
         name: "Cristo di Campobello | CDC",
         image: vini_cdc_rosso,
         price: 24,
-        description: "Rosso",
+        description: "Rosso - Bottiglia o Calice",
         category: "Vini",
         cookingTime: "10-15",
-        extraDescription: ""
+        extraDescription: "Calice 6€"
     },
     {
         _id: "66",
@@ -697,46 +697,6 @@ export const food_list = [
         image: vini_adenzia_rosso,
         price: 25,
         description: "Rosso",
-        category: "Vini",
-        cookingTime: "10-15",
-        extraDescription: ""
-    },
-    {
-        _id: "60",
-        name: "Navarra | Sofien",
-        image: vini_sofien_bianco,
-        price: 20,
-        description: "Bianco",
-        category: "Vini",
-        cookingTime: "10-15",
-        extraDescription: "Calice 6€"
-    },
-    {
-        _id: "61",
-        name: "Navarra | Allucià",
-        image: vini_allucia_bianco,
-        price: 22,
-        description: "Grillo Bianco",
-        category: "Vini",
-        cookingTime: "10-15",
-        extraDescription: ""
-    },
-    {
-        _id: "63",
-        name: "Navarra | Scurò",
-        image: vini_scuro_rosso,
-        price: 20,
-        description: "Nero d'Avola Rosso",
-        category: "Vini",
-        cookingTime: "10-15",
-        extraDescription: ""
-    },
-    {
-        _id: "64",
-        name: "Navarra | Disiato",
-        image: vini_disiato_rosso,
-        price: 18,
-        description: "Frappato Rosso",
         category: "Vini",
         cookingTime: "10-15",
         extraDescription: ""
@@ -752,10 +712,50 @@ export const food_list = [
         extraDescription: ""
     },
     {
+        _id: "60",
+        name: "Navarra | Sofien",
+        image: vini_sofien_bianco,
+        price: 20,
+        description: "Bianco - Bottiglia o Calice",
+        category: "Vini",
+        cookingTime: "10-15",
+        extraDescription: "Calice 6€"
+    },
+    {
+        _id: "61",
+        name: "Navarra | Allucià",
+        image: vini_allucia_bianco,
+        price: 22,
+        description: "Grillo Bianco",
+        category: "Vini",
+        cookingTime: "10-15",
+        extraDescription: ""
+    },
+    {
+        _id: "64",
+        name: "Navarra | Disiato",
+        image: vini_disiato_rosso,
+        price: 20,
+        description: "Frappato Rosso",
+        category: "Vini",
+        cookingTime: "10-15",
+        extraDescription: ""
+    },
+    {
+        _id: "63",
+        name: "Navarra | Scurò",
+        image: vini_scuro_rosso,
+        price: 22,
+        description: "Nero d'Avola Rosso - Bottiglia o Calice",
+        category: "Vini",
+        cookingTime: "10-15",
+        extraDescription: "Calice 6€"
+    },
+    {
         _id: "67",
         name: "Principe di Corleone | Narciso",
         image: vini_narciso_bianco,
-        price: 22,
+        price: 18,
         description: "Lucido Bianco",
         category: "Vini",
         cookingTime: "10-15",
@@ -765,18 +765,18 @@ export const food_list = [
         _id: "68",
         name: "Principe di Corleone | Chardonnay",
         image: vini_chardonnay_bianco,
-        price: 22,
-        description: "Bianco",
+        price: 20,
+        description: "Bianco - Bottiglia o Calice",
         category: "Vini",
         cookingTime: "10-15",
-        extraDescription: ""
+        extraDescription: "Calice 6€"
     },
     {
         _id: "69",
         name: "Principe di Corleone | Zahar",
         image: vini_zahar_bianco,
-        price: 22,
-        description: "Bianco",
+        price: 18,
+        description: "Bianco Frizzante",
         category: "Vini",
         cookingTime: "10-15",
         extraDescription: ""
@@ -785,14 +785,11 @@ export const food_list = [
         _id: "70",
         name: "Principe di Corleone | Fidelio",
         image: vini_fidelio_rosso,
-        price: 22,
-        description: "Rosso",
+        price: 16,
+        description: "Nero D'Avola Rosso",
         category: "Vini",
         cookingTime: "10-15",
         extraDescription: ""
     },
-
-    
-
 ];
 
