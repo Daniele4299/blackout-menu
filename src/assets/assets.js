@@ -135,7 +135,7 @@ export const food_list = [
         _id: "3",
         name: "Veli di crudo di Parma",
         image: antipasti_crudo,
-        price: 8,
+        price: 7,
         description: "Accompagnati da una fresca mozzarella di Bufala.",
         category: "Antipasti",
         cookingTime: "5-10",
