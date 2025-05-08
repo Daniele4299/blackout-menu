@@ -47,9 +47,26 @@ import bevande_sprite from './products/bevande_sprite.png'
 import bevande_fanta from './products/bevande_fanta.png'
 import hamburger_carne from './products/hamburger_carne.png'
 import hamburger_pesce from './products/hamburger_pesce.png'
-import vini_calicebianco from './products/vini_calicebianco.png'
-import vini_calicerosso from './products/vini_calicerosso.png'
 import vini_categoria from './products/vini_categoria.png'
+import vini_adenzia_rosso from './products/vini_adenzia_rosso.png'
+import vini_adenzia_bianco from './products/vini_adenzia_bianco.png'
+import vini_cdc_bianco from './products/vini_cdc_bianco.png'
+import vini_cdc_rosso from './products/vini_cdc_rosso.png'
+import vini_laluci_bianco from './products/vini_laluci_bianco.png'
+import vini_sofien_bianco from './products/vini_sofien_bianco.png'
+import vini_allucia_bianco from './products/vini_allucia_bianco.png'
+import vini_disiato_rosso from './products/vini_disiato_rosso.png'
+import vini_scuro_rosso from './products/vini_scuro_rosso.png'
+import vini_zahr_bianco from './products/vini_zahr_bianco.png'
+import vini_narciso_bianco from './products/vini_narciso_bianco.png'
+import vini_chardonnay_bianco from './products/vini_chardonnay_bianco.png'
+import vini_zahar_bianco from './products/vini_zahar_bianco.png'
+import vini_fidelio_rosso from './products/vini_fidelio_rosso.png'
+
+
+
+
+
 
 
 
@@ -212,7 +229,7 @@ export const food_list = [
         description: "Fritto misto per due persone",
         category: "Antipasti",
         cookingTime: "10-15",
-        extraDescription: "Può contenere tracce di glutine."
+        extraDescription: "Patatine (*). Può contenere tracce di glutine."
     },
     {
         _id: "13",
@@ -222,7 +239,7 @@ export const food_list = [
         description: "Fritto misto per quattro persone",
         category: "Antipasti",
         cookingTime: "10-15",
-        extraDescription: "Può contenere tracce di glutine."
+        extraDescription: "Patatine (*). Può contenere tracce di glutine."
     },
     {
         _id: "14",
@@ -535,26 +552,6 @@ export const food_list = [
         extraDescription: ""
     },
     {
-        _id: "45",
-        name: "Vino bianco",
-        image: vini_calicebianco,
-        price: 0,
-        description: "Su richiesta",
-        category: "Vini",
-        cookingTime: "10-15",
-        extraDescription: ""
-    },
-    {
-        _id: "46",
-        name: "Vino rosso",
-        image: vini_calicerosso,
-        price: 0,
-        description: "Su richiesta",
-        category: "Vini",
-        cookingTime: "10-15",
-        extraDescription: ""
-    },
-    {
         _id: "47",
         name: "Blackout",
         image: hamburger_carne,
@@ -654,5 +651,148 @@ export const food_list = [
         cookingTime: "10-15",
         extraDescription: "Trancio di Salmone, iceberg, noci sgusciate, olio, aceto balsamico. Può contenere tracce di glutine."
     },
+    {
+        _id: "58",
+        name: "Cristo di Campobello | CDC",
+        image: vini_cdc_bianco,
+        price: 22,
+        description: "Bianco",
+        category: "Vini",
+        cookingTime: "10-15",
+        extraDescription: "Calice 6€"
+    },
+    {
+        _id: "57",
+        name: "Cristo di Campobello | Adenzia",
+        image: vini_adenzia_bianco,
+        price: 24,
+        description: "Bianco",
+        category: "Vini",
+        cookingTime: "10-15",
+        extraDescription: ""
+    },
+    {
+        _id: "59",
+        name: "Cristo di Campobello | Laluci",
+        image: vini_laluci_bianco,
+        price: 25,
+        description: "Grillo Bianco",
+        category: "Vini",
+        cookingTime: "10-15",
+        extraDescription: ""
+    },
+    {
+        _id: "62",
+        name: "Cristo di Campobello | CDC",
+        image: vini_cdc_rosso,
+        price: 24,
+        description: "Rosso",
+        category: "Vini",
+        cookingTime: "10-15",
+        extraDescription: ""
+    },
+    {
+        _id: "66",
+        name: "Cristo di Campobello | Adenzia",
+        image: vini_adenzia_rosso,
+        price: 25,
+        description: "Rosso",
+        category: "Vini",
+        cookingTime: "10-15",
+        extraDescription: ""
+    },
+    {
+        _id: "60",
+        name: "Navarra | Sofien",
+        image: vini_sofien_bianco,
+        price: 20,
+        description: "Bianco",
+        category: "Vini",
+        cookingTime: "10-15",
+        extraDescription: "Calice 6€"
+    },
+    {
+        _id: "61",
+        name: "Navarra | Allucià",
+        image: vini_allucia_bianco,
+        price: 22,
+        description: "Grillo Bianco",
+        category: "Vini",
+        cookingTime: "10-15",
+        extraDescription: ""
+    },
+    {
+        _id: "63",
+        name: "Navarra | Scurò",
+        image: vini_scuro_rosso,
+        price: 20,
+        description: "Nero d'Avola Rosso",
+        category: "Vini",
+        cookingTime: "10-15",
+        extraDescription: ""
+    },
+    {
+        _id: "64",
+        name: "Navarra | Disiato",
+        image: vini_disiato_rosso,
+        price: 18,
+        description: "Frappato Rosso",
+        category: "Vini",
+        cookingTime: "10-15",
+        extraDescription: ""
+    },
+    {
+        _id: "65",
+        name: "Navarra | Zahr",
+        image: vini_zahr_bianco,
+        price: 18,
+        description: "Bianco Frizzante",
+        category: "Vini",
+        cookingTime: "10-15",
+        extraDescription: ""
+    },
+    {
+        _id: "67",
+        name: "Principe di Corleone | Narciso",
+        image: vini_narciso_bianco,
+        price: 22,
+        description: "Lucido Bianco",
+        category: "Vini",
+        cookingTime: "10-15",
+        extraDescription: ""
+    },
+    {
+        _id: "68",
+        name: "Principe di Corleone | Chardonnay",
+        image: vini_chardonnay_bianco,
+        price: 22,
+        description: "Bianco",
+        category: "Vini",
+        cookingTime: "10-15",
+        extraDescription: ""
+    },
+    {
+        _id: "69",
+        name: "Principe di Corleone | Zahar",
+        image: vini_zahar_bianco,
+        price: 22,
+        description: "Bianco",
+        category: "Vini",
+        cookingTime: "10-15",
+        extraDescription: ""
+    },
+    {
+        _id: "70",
+        name: "Principe di Corleone | Fidelio",
+        image: vini_fidelio_rosso,
+        price: 22,
+        description: "Rosso",
+        category: "Vini",
+        cookingTime: "10-15",
+        extraDescription: ""
+    },
+
+    
+
 ];
 
