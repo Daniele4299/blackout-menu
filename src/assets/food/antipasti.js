@@ -27,7 +27,7 @@ export const antipasti = [
         _id: "2",
         name: "Caponata siciliana",
         image: antipasti_caponata,
-        price: 8,
+        price: 7,
         description: "Con profumo di basilico fresco e crostini della casa",
         category: "Antipasti",
         cookingTime: "5-10",
@@ -71,13 +71,13 @@ export const antipasti = [
         description: "Tagliere per due persone. Clicca per vedere gli ingredienti.",
         category: "Antipasti",
         cookingTime: "10-15",
-        extraDescription: "Caponata, formaggi vari, salumi, mozzarella di bufala, miele e pistacchio, cous-cous, involtino di crudo, crocchette, panelle, tuma, accompagnato con ciotoline di marmellata. Può contenere tracce di glutine e lattosio."
+        extraDescription: "Caponata, formaggi vari, salumi, mozzarella di bufala, miele e pistacchio, cous-cous, involtino di crudo, crocchette, panelle, tuma, ciotoline di marmellata, salamino a pezzo e una ciotolina di olive verdi ripiene.  Può contenere tracce di glutine e lattosio."
     },
     {
         _id: "7",
         name: "Insalata di Mare",
         image: antipasti_insalatadimare,
-        price: 9,
+        price: 11,
         description: "Insalata di Mare",
         category: "Antipasti",
         cookingTime: "10-15",
