@@ -9,9 +9,8 @@ import primi_pastatonnarina from './products/primi_pastatonnarina.png'
 import primi_pastacilieginogamberoni from './products/primi_pastacilieginogamberoni.png'
 import primi_raviolopestogamberoni from './products/primi_raviolopestogamberoni.png'
 
-export const primi = [
+export const items = [
     {
-        _id: "14",
         name: "Ravioli ripieni di Burrata con salsa al Pistacchio",
         image: primi_raviolopistacchioguanciale,
         price: 11,
@@ -21,7 +20,6 @@ export const primi = [
         extraDescription: "Può contenere tracce di glutine e lattosio. Pasta (*)"
     },
     {
-        _id: "15",
         name: "Pasta Fresca con Crema di Parmigiano",
         image: primi_pastacremaparmigiano,
         price: 9,
@@ -31,7 +29,6 @@ export const primi = [
         extraDescription: "Può contenere tracce di glutine e lattosio. Pasta (*)"
     },
     {
-        _id: "16",
         name: "Tagliatelle con Crema di Melanzana",
         image: primi_tagliatellemelanzana,
         price: 8,
@@ -41,7 +38,6 @@ export const primi = [
         extraDescription: "Può contenere tracce di glutine e lattosio. Pasta (*)"
     },
     {
-        _id: "17",
         name: "Pasta con Ragù alla Bolognese",
         image: primi_pastabolognese,
         price: 7,
@@ -51,7 +47,6 @@ export const primi = [
         extraDescription: "Può contenere tracce di glutine e lattosio."
     },
     {
-        _id: "18",
         name: "Pasta con Pesto di Basilico e Salsiccia",
         image: primi_pastapestocasa,
         price: 9,
@@ -61,7 +56,6 @@ export const primi = [
         extraDescription: "Può contenere tracce di glutine e lattosio. Pasta (*)"
     },
     {
-        _id: "19",
         name: "Pasta ai Frutti di Mare",
         image: primi_pastafruttimare,
         price: 15,
@@ -71,7 +65,6 @@ export const primi = [
         extraDescription: "Può contenere tracce di glutine e lattosio. Pasta (*)"
     },
     {
-        _id: "20",
         name: "Spaghetti alle Vongole",
         image: primi_spaghettivongole,
         price: 14,
@@ -81,7 +74,6 @@ export const primi = [
         extraDescription: "Può contenere tracce di glutine e lattosio."
     },
     {
-        _id: "21",
         name: "Pasta alla Tonnarina",
         image: primi_pastatonnarina,
         price: 13,
@@ -91,7 +83,6 @@ export const primi = [
         extraDescription: "Può contenere tracce di glutine e lattosio. Pasta (*)"
     },
     {
-        _id: "22",
         name: "Pasta Ciliegino e Gamberone",
         image: primi_pastacilieginogamberoni,
         price: 14,
@@ -101,7 +92,6 @@ export const primi = [
         extraDescription: "Può contenere tracce di glutine e lattosio. Pasta (*)"
     },
     {
-        _id: "23",
         name: "Raviolo al Pesto di Pistacchio e Gamberone",
         image: primi_raviolopestogamberoni,
         price: 15,
@@ -111,3 +101,8 @@ export const primi = [
         extraDescription: "Può contenere tracce di glutine e lattosio. Pasta (*)"
     },
 ]
+
+export const primi = items.map((item, index) => ({
+    ...item,
+    _id: `primi${index + 1}`
+}));

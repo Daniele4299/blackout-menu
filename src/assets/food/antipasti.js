@@ -12,9 +12,8 @@ import antipasti_polpoarrostopatate from './products/antipasti_polpoarrostopatat
 import antipasti_frittomisto2 from './products/antipasti_frittomisto2.png'
 import antipasti_frittomisto4 from './products/antipasti_frittomisto4.png'
 
-export const antipasti = [
+export const items = [
     {
-        _id: "1",
         name: "Roast-beef",
         image: antipasti_roastbeef,
         price: 8,
@@ -24,7 +23,6 @@ export const antipasti = [
         extraDescription: "Contiene carne bovina. Possibili tracce di glutine."
     },
     {
-        _id: "2",
         name: "Caponata siciliana",
         image: antipasti_caponata,
         price: 7,
@@ -34,7 +32,6 @@ export const antipasti = [
         extraDescription: "Può contenere tracce di glutine."
     },
     {
-        _id: "3",
         name: "Veli di crudo di Parma",
         image: antipasti_crudo,
         price: 7,
@@ -44,7 +41,6 @@ export const antipasti = [
         extraDescription: "Può contenere tracce di glutine e lattosio."
     },
     {
-        _id: "4",
         name: "Vitello Tonnato",
         image: antipasti_vitellotonnato,
         price: 9,
@@ -54,7 +50,6 @@ export const antipasti = [
         extraDescription: "Può contenere tracce di glutine e lattosio."
     },
     {
-        _id: "5",
         name: "Cannolo Salato",
         image: antipasti_cannolosalato,
         price: 8,
@@ -64,7 +59,6 @@ export const antipasti = [
         extraDescription: "Può contenere tracce di glutine e lattosio. Cannolo Salato (**)"
     },
     {
-        _id: "6",
         name: "Tagliere Gourmet",
         image: antipasti_taglieregourmet,
         price: 22,
@@ -74,7 +68,6 @@ export const antipasti = [
         extraDescription: "Caponata, formaggi vari, salumi, mozzarella di bufala, miele e pistacchio, cous-cous, involtino di crudo, crocchette, panelle, tuma, ciotoline di marmellata, salamino a pezzo e una ciotolina di olive verdi ripiene.  Può contenere tracce di glutine e lattosio."
     },
     {
-        _id: "7",
         name: "Insalata di Mare",
         image: antipasti_insalatadimare,
         price: 11,
@@ -84,7 +77,6 @@ export const antipasti = [
         extraDescription: "Può contenere tracce di glutine. Insalata di Mare (**)"
     },
     {
-        _id: "8",
         name: "Tris Fumè",
         image: antipasti_trisfume,
         price: 12,
@@ -94,7 +86,6 @@ export const antipasti = [
         extraDescription: "Può contenere tracce di glutine."
     },
     {
-        _id: "9",
         name: "Cozze Scoppiate",
         image: antipasti_cozzescoppiate,
         price: 9,
@@ -104,7 +95,6 @@ export const antipasti = [
         extraDescription: "Può contenere tracce di glutine."
     },
     {
-        _id: "10",
         name: "Soutè di Cozze e Vongole",
         image: antipasti_soutecozzevongole,
         price: 12,
@@ -114,7 +104,6 @@ export const antipasti = [
         extraDescription: "Può contenere tracce di glutine."
     },
     {
-        _id: "11",
         name: "Polpo arrosto su Crema di Patate",
         image: antipasti_polpoarrostopatate,
         price: 12,
@@ -124,7 +113,6 @@ export const antipasti = [
         extraDescription: "Può contenere tracce di glutine. Polpo (*)"
     },
     {
-        _id: "12",
         name: "Fritto misto piccolo",
         image: antipasti_frittomisto2,
         price: 8,
@@ -134,7 +122,6 @@ export const antipasti = [
         extraDescription: "Può contenere tracce di glutine. Patatine (*)"
     },
     {
-        _id: "13",
         name: "Fritto misto grande",
         image: antipasti_frittomisto4,
         price: 12,
@@ -144,3 +131,8 @@ export const antipasti = [
         extraDescription: "Può contenere tracce di glutine. Patatine (*)"
     },
 ]
+
+export const antipasti = items.map((item, index) => ({
+    ...item,
+    _id: `antipasti_${index + 1}`
+}));

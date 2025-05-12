@@ -11,10 +11,11 @@ import secondi_involtinospada from './products/secondi_involtinospada.png'
 import secondi_tagliatatonno from './products/secondi_tagliatatonno.png'
 import secondi_pescespadagriglia from './products/secondi_pescespadagriglia.png'
 import secondi_grigliatamistapesce from './products/secondi_grigliatamistapesce.png'
+import secondi_tagliataangus from './products/secondi_tagliataangus.png'
+import secondi_agnellopatate from './products/secondi_agnellopatate.png'
 
-export const secondi = [
+export const items = [
     {
-        _id: "24",
         name: "Filetto alla Brace",
         image: secondi_filettobrace,
         price: 12,
@@ -24,7 +25,6 @@ export const secondi = [
         extraDescription: "Può contenere tracce di glutine."
     },
     {
-        _id: "25",
         name: "Scaloppine",
         image: secondi_scaloppinefunghi,
         price: 11,
@@ -34,7 +34,6 @@ export const secondi = [
         extraDescription: "Può contenere tracce di glutine."
     },
     {
-        _id: "26",
         name: "Filetto di Vitello con Melanzane Tunisine",
         image: secondi_filettovitelloscaglie,
         price: 12,
@@ -44,7 +43,6 @@ export const secondi = [
         extraDescription: "Può contenere tracce di glutine."
     },
     {
-        _id: "27",
         name: "Bistecca alla Palermitana",
         image: secondi_bisteccapalermitana,
         price: 7,
@@ -54,17 +52,15 @@ export const secondi = [
         extraDescription: "Può contenere tracce di glutine."
     },
     {
-        _id: "28",
         name: "Fiorentina",
         image: secondi_fiorentina,
-        price: 4,
+        price: 4.5,
         description: "Grigliata di Carne. Prezzo all'etto.",
         category: "Secondi",
         cookingTime: "10-15",
         extraDescription: "Può contenere tracce di glutine. Fiorentina e Angus (**)"
     },
     {
-        _id: "29",
         name: "Grigliata Mista",
         image: secondi_grigliatamista,
         price: 18,
@@ -74,7 +70,6 @@ export const secondi = [
         extraDescription: "Può contenere tracce di glutine."
     },
     {
-        _id: "30",
         name: "Tagliata di Vitello",
         image: secondi_tagliatavitello,
         price: 18,
@@ -84,7 +79,24 @@ export const secondi = [
         extraDescription: "Può contenere tracce di glutine."
     },
     {
-        _id: "31",
+        name: "Agnello con Patate al Forno",
+        image: secondi_agnellopatate,
+        price: 15,
+        description: "Agnello con Patate al Forno",
+        category: "Secondi",
+        cookingTime: "10-15",
+        extraDescription: "Può contenere tracce di glutine."
+    },
+    {
+        name: "Tagliata di Angus alla Griglia",
+        image: secondi_tagliataangus,
+        price: 20,
+        description: "Tagliata di Angus alla Griglia servita con Patate al Forno",
+        category: "Secondi",
+        cookingTime: "10-15",
+        extraDescription: "Può contenere tracce di glutine."
+    },
+    {
         name: "Frittura di Calamari",
         image: secondi_fritturacalamari,
         price: 12,
@@ -94,7 +106,6 @@ export const secondi = [
         extraDescription: "Può contenere tracce di glutine. Calamari (*)"
     },
     {
-        _id: "32",
         name: "Spiedini di Gambero",
         image: secondi_spiedinogambero,
         price: 18,
@@ -104,7 +115,6 @@ export const secondi = [
         extraDescription: "Può contenere tracce di glutine. Gambero (*)"
     },
     {
-        _id: "33",
         name: "Involtini di Spada",
         image: secondi_involtinospada,
         price: 15,
@@ -114,7 +124,6 @@ export const secondi = [
         extraDescription: "Può contenere tracce di glutine. Spada (*)"
     },
     {
-        _id: "34",
         name: "Tagliata di Tonno al Sesamo",
         image: secondi_tagliatatonno,
         price: 12,
@@ -124,7 +133,6 @@ export const secondi = [
         extraDescription: "Può contenere tracce di glutine. Tonno (**)"
     },
     {
-        _id: "35",
         name: "Pesce Spada alla Griglia",
         image: secondi_pescespadagriglia,
         price: 12,
@@ -134,7 +142,6 @@ export const secondi = [
         extraDescription: "Può contenere tracce di glutine. Spada (*)"
     },
     {
-        _id: "36",
         name: "Grigliata Mista di Pesce",
         image: secondi_grigliatamistapesce,
         price: 22,
@@ -144,3 +151,8 @@ export const secondi = [
         extraDescription: "Può contenere tracce di glutine. Grigliata Mista (*)"
     },
 ]
+
+export const secondi = items.map((item, index) => ({
+    ...item,
+    _id: `secondi_${index + 1}`
+}));

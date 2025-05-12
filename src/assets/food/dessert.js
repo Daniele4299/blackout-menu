@@ -10,10 +10,9 @@ import dessert_cremacannoloartigianale from './products/dessert_cremacannoloarti
 import dessert_cassataartigianale from './products/dessert_cassataartigianale.png'
 import dessert_nutellapistacchioartigianale from './products/dessert_nutellapistacchioartigianale.png'
 
-export const dessert = [
+export const items = [
 
     {
-        _id: "52",
         name: "Parfait Mandorle e Cioccolato",
         image: dessert_parfaitmandorlecioccolato,
         price: 5,
@@ -23,7 +22,6 @@ export const dessert = [
         extraDescription: "Può contenere tracce di glutine e lattosio. Dessert (*)"
     },
     {
-        _id: "53",
         name: "Parfait Pistacchio e Amarena",
         image: dessert_parfaitpistacchioamarena,
         price: 5,
@@ -33,7 +31,6 @@ export const dessert = [
         extraDescription: "Può contenere tracce di glutine e lattosio. Dessert (*)"
     },
     {
-        _id: "54",
         name: "Mousse Limone e Lamponi",
         image: dessert_mousselimonelamponi,
         price: 5,
@@ -43,7 +40,6 @@ export const dessert = [
         extraDescription: "Può contenere tracce di glutine e lattosio. Dessert (*)"
     },
     {
-        _id: "55",
         name: "Mousse Cioccolato Bianco e More",
         image: dessert_moussecioccbiancomore,
         price: 5,
@@ -53,7 +49,6 @@ export const dessert = [
         extraDescription: "Può contenere tracce di glutine e lattosio. Dessert (*)"
     },
     {
-        _id: "56",
         name: "Mousse Cioccolato e Arancia",
         image: dessert_moussecioccarancia,
         price: 5,
@@ -63,7 +58,6 @@ export const dessert = [
         extraDescription: "Può contenere tracce di glutine e lattosio. Dessert (*)"
     },
     {
-        _id: "57",
         name: "Cheesecake",
         image: dessert_cheesecake,
         price: 5,
@@ -72,9 +66,7 @@ export const dessert = [
         cookingTime: "10-15",
         extraDescription: "Può contenere tracce di glutine e lattosio. Dessert (*)"
     },
-
     {
-        _id: "58",
         name: "I Mori | 7 Veli Artigianale",
         image: dessert_setteveliartigianale,
         price: 4.50,
@@ -84,7 +76,6 @@ export const dessert = [
         extraDescription: "Può contenere tracce di glutine e lattosio. Dessert (*)"
     },
     {
-        _id: "59",
         name: "I Mori | Crema al cannolo Artigianale",
         image: dessert_cremacannoloartigianale,
         price: 4.50,
@@ -94,7 +85,6 @@ export const dessert = [
         extraDescription: "Può contenere tracce di glutine e lattosio. Dessert (*)"
     },
     {
-        _id: "60",
         name: "I Mori | Cassata Artigianale",
         image: dessert_cassataartigianale,
         price: 4.50,
@@ -104,7 +94,6 @@ export const dessert = [
         extraDescription: "Può contenere tracce di glutine e lattosio. Dessert (*)"
     },
     {
-        _id: "61",
         name: "I Mori | Tiramisù Artigianale",
         image: dessert_tiramisu,
         price: 4.50,
@@ -114,7 +103,6 @@ export const dessert = [
         extraDescription: "Può contenere tracce di glutine e lattosio. Dessert (*)"
     },
     {
-        _id: "62",
         name: "I Mori | Nutella al Pistacchio Artigianale",
         image: dessert_nutellapistacchioartigianale,
         price: 4.50,
@@ -124,3 +112,8 @@ export const dessert = [
         extraDescription: "Può contenere tracce di glutine e lattosio. Dessert (*)"
     },
 ]
+
+export const dessert = items.map((item, index) => ({
+    ...item,
+    _id: `dessert_${index + 1}`
+}));
