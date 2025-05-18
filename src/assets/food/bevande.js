@@ -13,6 +13,8 @@ import bevande_gazzosa from './products/bevande_gazzosa.png'
 import bevande_ichnusa from './products/bevande_ichnusa.png'
 import bevande_kinleytonic from './products/bevande_kinleytonic.png'
 import bevande_heineken from './products/bevande_heineken.png'
+import bevande_becks from './products/bevande_becks.png'
+import bevande_semerossa from './products/bevande_semerossa.png'
 
 export const items = [
     {
@@ -124,6 +126,15 @@ export const items = [
         extraDescription: ""
     },
     {
+        name: "Becks",
+        image: bevande_becks,
+        price: 3.50,
+        description: "33cl",
+        category: "Bevande",
+        cookingTime: "10-15",
+        extraDescription: ""
+    },
+    {
         name: "Birra Messina",
         image: bevande_birramessina,
         price: 4,
@@ -140,6 +151,15 @@ export const items = [
         category: "Bevande",
         cookingTime: "10-15",
         extraDescription: ""
+    },
+    {
+        name: "Semedorato Rossa",
+        image: bevande_semerossa,
+        price: 4,
+        description: "33cl",
+        category: "Bevande",
+        cookingTime: "10-15",
+        extraDescription: "Doppio malto"
     },
     {
         name: "Ceres",

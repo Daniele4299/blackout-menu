@@ -12,6 +12,8 @@ import vini_narciso_bianco from './products/vini_narciso_bianco.png'
 import vini_chardonnay_bianco from './products/vini_chardonnay_bianco.png'
 import vini_zahar_bianco from './products/vini_zahar_bianco.png'
 import vini_fidelio_rosso from './products/vini_fidelio_rosso.png'
+import vini_narciso_rosso from './products/vini_narciso_rosso.png'
+
 
 export const items = [
     {
@@ -108,10 +110,10 @@ export const items = [
         name: "Principe di Corleone | Narciso",
         image: vini_narciso_bianco,
         price: 18,
-        description: "Lucido Bianco",
+        description: "Lucido Bianco - Bottiglia o Calice",
         category: "Vini",
         cookingTime: "10-15",
-        extraDescription: ""
+        extraDescription: "Calice 6€"
     },
     {
         name: "Principe di Corleone | Chardonnay",
@@ -139,6 +141,15 @@ export const items = [
         category: "Vini",
         cookingTime: "10-15",
         extraDescription: ""
+    },
+    {
+        name: "Principe di Corleone | Narciso",
+        image: vini_narciso_rosso,
+        price: 18,
+        description: "Rosso - Nerello Mascarese - Bottiglia o Calice",
+        category: "Vini",
+        cookingTime: "10-15",
+        extraDescription: "Calice 6€"
     },
 ]
 
