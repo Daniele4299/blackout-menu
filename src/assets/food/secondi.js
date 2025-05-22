@@ -18,7 +18,7 @@ export const items = [
     {
         name: "Filetto alla Brace",
         image: secondi_filettobrace,
-        price: 12,
+        price: 15,
         description: "Filetto alla Brace",
         category: "Secondi",
         cookingTime: "10-15",
@@ -27,7 +27,7 @@ export const items = [
     {
         name: "Scaloppine",
         image: secondi_scaloppinefunghi,
-        price: 11,
+        price: 13,
         description: "Ai Funghi, o Limone o Marsala",
         category: "Secondi",
         cookingTime: "10-15",
@@ -36,7 +36,7 @@ export const items = [
     {
         name: "Filetto di Vitello con Melanzane Tunisine",
         image: secondi_filettovitelloscaglie,
-        price: 12,
+        price: 15,
         description: "Filetto di Vitello con Pesto di Basilico, Melanzane Tunisine e Scaglie di grana.",
         category: "Secondi",
         cookingTime: "10-15",
