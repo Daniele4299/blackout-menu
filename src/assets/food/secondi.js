@@ -99,7 +99,7 @@ export const items = [
     {
         name: "Frittura di Calamari",
         image: secondi_fritturacalamari,
-        price: 12,
+        price: 13,
         description: "Frittura di Calamari.",
         category: "Secondi",
         cookingTime: "10-15",
@@ -126,7 +126,7 @@ export const items = [
     {
         name: "Tagliata di Tonno al Sesamo",
         image: secondi_tagliatatonno,
-        price: 12,
+        price: 17,
         description: "Tagliata di Tonno al Sesamo.",
         category: "Secondi",
         cookingTime: "10-15",
@@ -135,7 +135,7 @@ export const items = [
     {
         name: "Pesce Spada alla Griglia",
         image: secondi_pescespadagriglia,
-        price: 12,
+        price: 14,
         description: "Pesce Spada alla Griglia.",
         category: "Secondi",
         cookingTime: "10-15",
