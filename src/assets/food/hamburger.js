@@ -5,7 +5,7 @@ export const items = [
     {
         name: "Blackout",
         image: hamburger_carne,
-        price: 13,
+        price: 14,
         description: "Clicca per vedere gli ingredienti.",
         category: "Hamburger",
         cookingTime: "10-15",
@@ -23,7 +23,7 @@ export const items = [
     {
         name: "Agli Agrumi",
         image: hamburger_carne,
-        price: 9,
+        price: 12,
         description: "Clicca per vedere gli ingredienti.",
         category: "Hamburger",
         cookingTime: "10-15",
@@ -32,7 +32,7 @@ export const items = [
     {
         name: "Polpetta",
         image: hamburger_carne,
-        price: 13,
+        price: 15,
         description: "Clicca per vedere gli ingredienti.",
         category: "Hamburger",
         cookingTime: "10-15",
@@ -41,7 +41,7 @@ export const items = [
     {
         name: "Classico",
         image: hamburger_carne,
-        price: 8,
+        price: 9,
         description: "Clicca per vedere gli ingredienti.",
         category: "Hamburger",
         cookingTime: "10-15",
@@ -50,7 +50,7 @@ export const items = [
     {
         name: "Double Burger",
         image: hamburger_carne,
-        price: 12,
+        price: 14,
         description: "Clicca per vedere gli ingredienti.",
         category: "Hamburger",
         cookingTime: "10-15",
@@ -82,15 +82,6 @@ export const items = [
         category: "Hamburger",
         cookingTime: "10-15",
         extraDescription: "Straccetti di petto di pollo, gorgonzola, olio, sale, paprika dolce, senape, foglie di basilico fresco. Può contenere tracce di glutine. Pollo (**)"
-    },
-    {
-        name: "Al Salmone",
-        image: hamburger_pesce,
-        price: 16,
-        description: "Clicca per vedere gli ingredienti.",
-        category: "Hamburger",
-        cookingTime: "10-15",
-        extraDescription: "Trancio di Salmone, iceberg, noci sgusciate, olio, aceto balsamico. Può contenere tracce di glutine."
     },
 ]
 

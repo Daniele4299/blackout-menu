@@ -18,7 +18,7 @@ export const items = [
     {
         name: "Filetto alla Brace",
         image: secondi_filettobrace,
-        price: 15,
+        price: 16,
         description: "Filetto alla Brace",
         category: "Secondi",
         cookingTime: "10-15",
@@ -99,7 +99,7 @@ export const items = [
     {
         name: "Frittura di Calamari",
         image: secondi_fritturacalamari,
-        price: 13,
+        price: 14,
         description: "Frittura di Calamari.",
         category: "Secondi",
         cookingTime: "10-15",

@@ -13,7 +13,7 @@ export const items = [
     {
         name: "Ravioli ripieni di Burrata con salsa al Pistacchio",
         image: primi_raviolopistacchioguanciale,
-        price: 11,
+        price: 13,
         description: "Ravioli ripieni di Burrata con salsa al Pistacchio e Guanciale.",
         category: "Primi",
         cookingTime: "10-15",
@@ -22,7 +22,7 @@ export const items = [
     {
         name: "Pasta Fresca con Crema di Parmigiano",
         image: primi_pastacremaparmigiano,
-        price: 9,
+        price: 11,
         description: "Pasta fresca con crema di Parmigiano, Speck e Zafferano.",
         category: "Primi",
         cookingTime: "10-15",
@@ -31,7 +31,7 @@ export const items = [
     {
         name: "Tagliatelle con Crema di Melanzana",
         image: primi_tagliatellemelanzana,
-        price: 8,
+        price: 11,
         description: "Tagliatelle con Crema di Melanzana, Pancetta e Scaglie di Grana.",
         category: "Primi",
         cookingTime: "10-15",
@@ -40,7 +40,7 @@ export const items = [
     {
         name: "Pasta con Ragù alla Bolognese",
         image: primi_pastabolognese,
-        price: 7,
+        price: 9,
         description: "Pasta con Ragù alla Bolognese.",
         category: "Primi",
         cookingTime: "10-15",
@@ -58,7 +58,7 @@ export const items = [
     {
         name: "Pasta ai Frutti di Mare",
         image: primi_pastafruttimare,
-        price: 15,
+        price: 17,
         description: "Pasta ai Frutti di Mare.",
         category: "Primi",
         cookingTime: "10-15",
@@ -67,7 +67,7 @@ export const items = [
     {
         name: "Spaghetti alle Vongole",
         image: primi_spaghettivongole,
-        price: 14,
+        price: 16,
         description: "Spaghetti alle Vongole.",
         category: "Primi",
         cookingTime: "10-15",
@@ -76,7 +76,7 @@ export const items = [
     {
         name: "Pasta alla Tonnarina",
         image: primi_pastatonnarina,
-        price: 13,
+        price: 15,
         description: "Pomodorino, tonno fresco e mandorle.",
         category: "Primi",
         cookingTime: "10-15",
@@ -85,7 +85,7 @@ export const items = [
     {
         name: "Pasta Ciliegino e Gamberone",
         image: primi_pastacilieginogamberoni,
-        price: 14,
+        price: 16,
         description: "Pasta Ciliegino e Gamberone.",
         category: "Primi",
         cookingTime: "10-15",
@@ -94,7 +94,7 @@ export const items = [
     {
         name: "Raviolo al Pesto di Pistacchio e Gamberone",
         image: primi_raviolopestogamberoni,
-        price: 15,
+        price: 18,
         description: "Raviolo al Pesto di Pistacchio e Gamberone.",
         category: "Primi",
         cookingTime: "10-15",

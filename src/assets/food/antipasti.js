@@ -16,7 +16,7 @@ export const items = [
     {
         name: "Roast-beef",
         image: antipasti_roastbeef,
-        price: 8,
+        price: 9,
         description: "Cotto a bassa temperatura con rucola fresca e mirtilli di stagione.",
         category: "Antipasti",
         cookingTime: "5-10",
@@ -70,7 +70,7 @@ export const items = [
     {
         name: "Insalata di Mare",
         image: antipasti_insalatadimare,
-        price: 11,
+        price: 14,
         description: "Insalata di Mare",
         category: "Antipasti",
         cookingTime: "10-15",
@@ -79,7 +79,7 @@ export const items = [
     {
         name: "Tris Fumè",
         image: antipasti_trisfume,
-        price: 12,
+        price: 13,
         description: "Tris di salmone affumicato, tonno affumicato e pesce spada affumicato, olio, limone, aromi.",
         category: "Antipasti",
         cookingTime: "10-15",
@@ -106,7 +106,7 @@ export const items = [
     {
         name: "Polpo arrosto su Crema di Patate",
         image: antipasti_polpoarrostopatate,
-        price: 12,
+        price: 13,
         description: "Polpo arrosto su Crema di Patate",
         category: "Antipasti",
         cookingTime: "10-15",
