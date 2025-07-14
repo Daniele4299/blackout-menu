@@ -58,15 +58,15 @@ export const items = [
         cookingTime: "10-15",
         extraDescription: "Può contenere tracce di glutine e lattosio. Cannolo Salato (**)"
     },
-    {
-        name: "Tagliere Gourmet",
-        image: antipasti_taglieregourmet,
-        price: 22,
-        description: "Tagliere per due persone. Clicca per vedere gli ingredienti.",
-        category: "Antipasti",
-        cookingTime: "10-15",
-        extraDescription: "Caponata, formaggi vari, salumi, mozzarella di bufala, miele e pistacchio, cous-cous, involtino di crudo, crocchette, panelle, tuma, ciotoline di marmellata, salamino a pezzo e una ciotolina di olive verdi ripiene.  Può contenere tracce di glutine e lattosio."
-    },
+    // {
+    //     name: "Tagliere Gourmet",
+    //     image: antipasti_taglieregourmet,
+    //     price: 22,
+    //     description: "Tagliere per due persone. Clicca per vedere gli ingredienti.",
+    //     category: "Antipasti",
+    //     cookingTime: "10-15",
+    //     extraDescription: "Caponata, formaggi vari, salumi, mozzarella di bufala, miele e pistacchio, cous-cous, involtino di crudo, crocchette, panelle, tuma, ciotoline di marmellata, salamino a pezzo e una ciotolina di olive verdi ripiene.  Può contenere tracce di glutine e lattosio."
+    // },
     {
         name: "Insalata di Mare",
         image: antipasti_insalatadimare,
