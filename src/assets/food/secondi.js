@@ -141,15 +141,15 @@ export const items = [
         cookingTime: "10-15",
         extraDescription: "Può contenere tracce di glutine. Spada (*)"
     },
-    {
-        name: "Grigliata Mista di Pesce",
-        image: secondi_grigliatamistapesce,
-        price: 22,
-        description: "Grigliata Mista di Pesce.",
-        category: "Secondi",
-        cookingTime: "10-15",
-        extraDescription: "Può contenere tracce di glutine. Grigliata Mista (*)"
-    },
+    // {
+    //     name: "Grigliata Mista di Pesce",
+    //     image: secondi_grigliatamistapesce,
+    //     price: 22,
+    //     description: "Grigliata Mista di Pesce.",
+    //     category: "Secondi",
+    //     cookingTime: "10-15",
+    //     extraDescription: "Può contenere tracce di glutine. Grigliata Mista (*)"
+    // },
 ]
 
 export const secondi = items.map((item, index) => ({
