@@ -15,15 +15,15 @@ import secondi_tagliataangus from './products/secondi_tagliataangus.png'
 import secondi_agnellopatate from './products/secondi_agnellopatate.png'
 
 export const items = [
-    {
-        name: "Filetto alla Brace",
-        image: secondi_filettobrace,
-        price: 16,
-        description: "Filetto alla Brace",
-        category: "Secondi",
-        cookingTime: "10-15",
-        extraDescription: "Può contenere tracce di glutine."
-    },
+    // {
+    //     name: "Filetto alla Brace",
+    //     image: secondi_filettobrace,
+    //     price: 16,
+    //     description: "Filetto alla Brace",
+    //     category: "Secondi",
+    //     cookingTime: "10-15",
+    //     extraDescription: "Può contenere tracce di glutine."
+    // },
     {
         name: "Scaloppine",
         image: secondi_scaloppinefunghi,
@@ -33,15 +33,15 @@ export const items = [
         cookingTime: "10-15",
         extraDescription: "Può contenere tracce di glutine."
     },
-    {
-        name: "Filetto di Vitello con Melanzane Tunisine",
-        image: secondi_filettovitelloscaglie,
-        price: 15,
-        description: "Filetto di Vitello con Pesto di Basilico, Melanzane Tunisine e Scaglie di grana.",
-        category: "Secondi",
-        cookingTime: "10-15",
-        extraDescription: "Può contenere tracce di glutine."
-    },
+    // {
+    //     name: "Filetto di Vitello con Melanzane Tunisine",
+    //     image: secondi_filettovitelloscaglie,
+    //     price: 15,
+    //     description: "Filetto di Vitello con Pesto di Basilico, Melanzane Tunisine e Scaglie di grana.",
+    //     category: "Secondi",
+    //     cookingTime: "10-15",
+    //     extraDescription: "Può contenere tracce di glutine."
+    // },
     {
         name: "Bistecca alla Palermitana",
         image: secondi_bisteccapalermitana,
