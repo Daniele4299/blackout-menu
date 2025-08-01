@@ -36,7 +36,7 @@ export const items = [
         description: "Clicca per vedere gli ingredienti.",
         category: "Hamburger",
         cookingTime: "10-15",
-        extraDescription: "Hamburger di polpetta ripiena al pistacchio e formaggio, mortadella, crema di pistacchio. Può contenere tracce di glutine. Burger (*)"
+        extraDescription: "Hamburger, polpetta di cavallo, formaggio, mortadella, crema di pistacchio. Può contenere tracce di glutine. Burger (*)"
     },
     {
         name: "Classico",

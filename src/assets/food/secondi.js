@@ -106,10 +106,10 @@ export const items = [
         extraDescription: "Può contenere tracce di glutine. Calamari (*)"
     },
     {
-        name: "Spiedini di Gambero",
+        name: "Gamberoni",
         image: secondi_spiedinogambero,
         price: 18,
-        description: "Spiedini di Gambero.",
+        description: "Gamberoni (8 pezzi)",
         category: "Secondi",
         cookingTime: "10-15",
         extraDescription: "Può contenere tracce di glutine. Gambero (*)"
